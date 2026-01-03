@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oliver & Andrea — Wedding</title>
+  </head>
+
+  <body>
+    <div id="app" class="i18n-wrap">
+      <!-- NAV -->
+      <header class="nav">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">O ♡ A</span>
+        </div>
+
+        <nav class="links">
+          <a href="#details" data-i18n="nav.details">Details</a>
+          <a href="#venue" data-i18n="nav.venue">Venue</a>
+          <a href="#registry" data-i18n="nav.registry">Registry</a>
+          <a href="#livestream" data-i18n="nav.livestream">Livestream</a>
+          <a href="#faq" data-i18n="nav.faq">FAQ</a>
+          <a class="rsvp" href="#rsvp" data-i18n="nav.rsvp">RSVP</a>
+          <button id="langToggle" class="lang-btn" type="button">Español</button>
+        </nav>
+      </header>
+
+      <!-- HERO -->
+      <section class="hero section">
+
+        <div class="hero-inner">
+          <p class="kicker reveal" data-i18n="hero.kicker">You’re invited to</p>
+
+          <h1 class="title reveal" data-i18n="hero.title">Oliver & Andrea's Wedding</h1>
+
+          <p class="subtitle reveal" data-i18n="hero.date">
+            July 11, 2026 • Lincoln, NE
+          </p>
+
+          <div class="actions reveal">
+            <a class="btn" href="#rsvp" data-i18n="hero.ctaRsvp">RSVP</a>
+            <a class="btn ghost" href="#venue" data-i18n="hero.ctaDirections">Directions</a>
+          </div>
+        </div>
+
+        <div class="hero-bg hero-bg-a"></div>
+        <div class="hero-bg hero-bg-b"></div>
+
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="hero-glow" aria-hidden="true"></div>
+      </section>
+
+      
+
+      <!-- DETAILS -->
+      <section id="details" class="section card">
+        <h2 class="reveal" data-i18n="details.title">Details</h2>
+
+        <div class="grid">
+          <div class="item reveal">
+            <div class="label" data-i18n="details.ceremonyTimeLabel">Ceremony begins</div>
+            <div class="value" data-i18n="details.ceremonyTime">TBD</div>
+          </div>
+
+          <div class="item reveal">
+            <div class="label" data-i18n="details.doorsCloseLabel">Doors close at</div>
+            <div class="value" data-i18n="details.doorsCloseTime">TBD</div>
+          </div>
+
+          <div class="item reveal">
+            <div class="label" data-i18n="details.receptionTimeLabel">Reception</div>
+            <div class="value" data-i18n="details.receptionTime">To follow</div>
+          </div>
+
+          <div class="item reveal">
+            <div class="label" data-i18n="details.sendOffLabel">Send-off</div>
+            <div class="value" data-i18n="details.sendOffTime">TBD</div>
+          </div>
+
+          <div class="item reveal">
+            <div class="label" data-i18n="details.dressCodeLabel">Dress code</div>
+            <div class="value" data-i18n="details.dressCodeValue">Dress code explanation</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VENUE -->
+      <section id="venue" class="section card">
+        <h2 class="reveal" data-i18n="venue.title">Venue</h2>
+
+        <p class="muted reveal" data-i18n="venue.line">
+          Lincoln Baptist Church • 2400 S 11th St, Lincoln, NE 68502
+        </p>
+
+        <div class="actions reveal">
+          <a
+            class="btn"
+            target="_blank"
+            rel="noreferrer"
+            href="https://maps.app.goo.gl/KhxrKbmcL9b5UpFL6"
+            data-i18n="venue.mapsBtn"
+          >
+            Open in Maps
+          </a>
+        </div>
+
+        <div class="map-wrap reveal">
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.791978175298!2d-96.7051232!3d40.788587199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8796be558047c29d%3A0x8e28b865598c70c5!2sLincoln%20Baptist%20Church!5e0!3m2!1sen!2sus!4v1767384266715!5m2!1sen!2sus"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Lincoln Baptist Church Map"
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- REGISTRY -->
+      <section id="registry" class="section card">
+        <h2 class="reveal" data-i18n="registry.title">Registry</h2>
+
+        <p class="muted reveal" data-i18n="registry.text">
+          Your presence is the greatest gift. If you’d like to give something extra, we have an Amazon registry:
+        </p>
+
+        <div class="actions reveal">
+          <a
+            class="btn"
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.amazon.com/hz/wishlist/ls/2W3L0SS58ZAJT?ref_=wl_share"
+            data-i18n="registry.btn"
+          >
+            View Amazon Registry
+          </a>
+        </div>
+      </section>
+
+      <!-- LIVESTREAM -->
+      <section id="livestream" class="section card">
+        <h2 class="reveal" data-i18n="livestream.title">Livestream</h2>
+
+        <p class="muted reveal" data-i18n="livestream.text">
+          Can’t make it in person? Join us online:
+        </p>
+
+        <div class="actions reveal">
+          <a
+            id="livestreamLink"
+            class="btn"
+            href="#"
+            target="_blank"
+            rel="noreferrer"
+            aria-disabled="true"
+            data-i18n="livestream.btn"
+          >
+            Watch livestream
+          </a>
+        </div>
+
+        <p id="livestreamPlaceholder" class="small muted reveal" data-i18n="livestream.placeholder">
+          Link coming soon
+        </p>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="section card">
+        <h2 class="reveal" data-i18n="faq.title">FAQ</h2>
+
+        <details class="reveal">
+          <summary data-i18n="faq.q1"></summary>
+          <p class="muted" data-i18n="faq.a1"></p>
+        </details>
+
+        <details class="reveal">
+          <summary data-i18n="faq.q2"></summary>
+          <p class="muted" data-i18n="faq.a2"></p>
+        </details>
+
+        <details class="reveal">
+          <summary data-i18n="faq.q3"></summary>
+          <p class="muted" data-i18n="faq.a3"></p>
+        </details>
+      </section>
+
+      <!-- RSVP -->
+      <section id="rsvp" class="section card">
+        <h2 class="reveal" data-i18n="rsvp.title">RSVP</h2>
+
+        <p class="muted reveal" data-i18n="rsvp.deadline">
+          Please RSVP by May 15, 2026.
+        </p>
+
+        <form
+          id="rsvpForm"
+          class="rsvp-form reveal"
+          action="https://formspree.io/f/maqnjono"
+          method="POST"
+        >
+          <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" />
+
+          <div class="two-col">
+            <label>
+              <span data-i18n="rsvp.nameLabel">Family name</span>
+              <input
+                name="name"
+                required
+                placeholder="Smith Family"
+                data-i18n-placeholder="rsvp.namePlaceholder"
+              />
+            </label>
+
+            <label>
+              <span data-i18n="rsvp.attendingLabel">Attending?</span>
+              <select name="attending" required>
+                <option value="" selected disabled data-i18n="rsvp.selectPlaceholder">Select…</option>
+                <option value="Yes" data-i18n="rsvp.yes">Yes</option>
+                <option value="No" data-i18n="rsvp.no">No</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="two-col">
+            <label>
+              <span data-i18n="rsvp.guestsLabel">Total guests (including you)</span>
+              <input name="guests" type="number" min="1" max="99" value="1" />
+            </label>
+
+            <label>
+              <span data-i18n="rsvp.dietLabel">Food allergies or dietary restrictions</span>
+              <input
+                name="dietary"
+                placeholder="e.g., gluten-free, nut allergy"
+                data-i18n-placeholder="rsvp.dietPlaceholder"
+              />
+            </label>
+          </div>
+
+          <button class="btn" type="submit" data-i18n="rsvp.submitBtn">Submit RSVP</button>
+          <p id="rsvpStatus" class="small muted" style="margin-top:10px;"></p>
+        </form>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <span class="muted" id="updated"></span>
+      </footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
