@@ -5,8 +5,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-// ---------- Livestream URL (paste when ready) ----------
-// Leave as "" to show "Link coming soon" + disable click.
+// ---------- Livestream URL  ----------
 const LIVESTREAM_URL = "https://www.youtube.com/@lincolnbaptistchurch6919";
 
 // ---------- i18n (English/Spanish) ----------
@@ -33,15 +32,15 @@ const translations = {
     details: {
       title: "Details",
       ceremonyTimeLabel: "Ceremony begins",
-      ceremonyTime: "TBD",
+      ceremonyTime: "2:00 PM",
       doorsCloseLabel: "Doors close at",
       doorsCloseTime: "TBD",
       receptionTimeLabel: "Reception",
-      receptionTime: "To follow",
+      receptionTime: "Following the ceremony",
       sendOffLabel: "Send-off",
       sendOffTime: "TBD",
       dressCodeLabel: "Dress code",
-      dressCodeValue: "Dress code explanation",
+      dressCodeValue: "Semi-formal attire. Please dress modestly and refrain from wearing white, cream, or green.",
     },
     venue: {
       title: "Venue",
@@ -63,17 +62,17 @@ const translations = {
     faq: {
       title: "FAQ",
       q1: "What should I wear?",
-      a1: "Dress code explanation.",
+      a1: "Semi-formal attire. Please dress modestly and refrain from wearing white, cream, or green.",
       q2: "Is parking available?",
       a2: "Yes, parking is available on-site.",
-      q3: "question 3",
-      a3: "answer",
+      q3: "Can I bring a plus-one?",
+      a3: "We would like this to be an intimate wedding. Because of this, we ask that you do not bring other guests unless specified.",
     },
     rsvp: {
       title: "RSVP",
-      deadline: "Please RSVP by a date",
+      deadline: "Please RSVP by May 23rd.",
       nameLabel: "Family name",
-      namePlaceholder: "Triana Family",
+      namePlaceholder: "e.g. Triana Family",
       attendingLabel: "Attending?",
       selectPlaceholder: "Select…",
       yes: "Yes",
@@ -111,7 +110,7 @@ const translations = {
     details: {
       title: "Detalles",
       ceremonyTimeLabel: "Comienza la ceremonia",
-      ceremonyTime: "Por definir",
+      ceremonyTime: "2:00 PM",
       doorsCloseLabel: "Las puertas cierran a las",
       doorsCloseTime: "Por definir",
       receptionTimeLabel: "Recepción",
@@ -119,7 +118,7 @@ const translations = {
       sendOffLabel: "Despedida",
       sendOffTime: "Por definir",
       dressCodeLabel: "Código de vestimenta",
-      dressCodeValue: "Explicación del código de vestimenta",
+      dressCodeValue: "Atuendo semi-formal. Le agradeceríamos que elija un atuendo modesto y evitara tonos blancos, crema, o verdes.",
     },
     venue: {
       title: "Lugar",
@@ -141,17 +140,17 @@ const translations = {
     faq: {
       title: "Preguntas frecuentes",
       q1: "¿Qué me pongo?",
-      a1: "Explicación del código de vestimenta.",
+      a1: "Atuendo semi-formal. Le agradeceríamos que elija un atuendo modesto y evitara tonos blancos, crema, o verdes.",
       q2: "¿Habrá estacionamiento?",
       a2: "Sí, hay estacionamiento disponible en el lugar.",
-      q3: "Pregunta",
-      a3: "Respuresta",
+      q3: "¿Puedo llevar a un invitado/a?",
+      a3: "Deseamos que esta sea una boda íntima; por ello, les pedimos amablemente que respeten la invitación y no asistan con acompañantes adicionales al menos que se indique lo contrario.",
     },
     rsvp: {
       title: "Confirmar asistencia",
-      deadline: "Por favor confirme antes de una fecha",
+      deadline: "Por favor confirme antes de el 23 de Mayo.",
       nameLabel: "Apellido (familia)",
-      namePlaceholder: "Familia Triana",
+      namePlaceholder: "p. ej. Familia Triana",
       attendingLabel: "¿Asistirá?",
       selectPlaceholder: "Seleccione…",
       yes: "Sí",
