@@ -337,7 +337,7 @@ const bgA = document.querySelector(".hero-bg-a");
 const bgB = document.querySelector(".hero-bg-b");
 
 
-if (bgA && bgB && !prefersReducedMotion) {
+if (bgA && bgB) {
   const slides = [slide1, slide2, slide3, slide4];
 
   // preload (prevents flash on first load)
