@@ -5,6 +5,8 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
+const BASE = import.meta.env.BASE_URL;
+
 // ---------- Livestream URL  ----------
 const LIVESTREAM_URL = "https://www.youtube.com/@lincolnbaptistchurch6919";
 
@@ -331,10 +333,10 @@ const bgB = document.querySelector(".hero-bg-b");
 
 if (bgA && bgB && !prefersReducedMotion) {
   const slides = [
-    "/pictures/picture1.jpg",
-    "/pictures/picture2.jpg",
-    "/pictures/picture3.jpg",
-    "/pictures/picture4.jpg",
+    `${BASE}pictures/picture1.jpg`,
+    `${BASE}pictures/picture2.jpg`,
+    `${BASE}pictures/picture3.jpg`,
+    `${BASE}pictures/picture4.jpg`,
   ];
 
   // preload (prevents flash on first load)
