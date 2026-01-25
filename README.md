@@ -1,9 +1,12 @@
 # Wedding Website
 
+Hosted at https://ol1v3s.github.io/wedding/
+
 This is my official personal wedding website.  
 It includes event details, venue information, registry links, livestream access, and an RSVP form.
 
 The site is fully bilingual (English / Spanish).
+
 
 ---
 
