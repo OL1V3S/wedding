@@ -382,6 +382,7 @@ details p{
   margin: 10px 0 0;
 }
 
-
-
+section[id] {
+  scroll-margin-top: var(--nav-offset, 110px);
+}
 

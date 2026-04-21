@@ -184,6 +184,27 @@ function getTranslation(lang, keyPath) {
   return keyPath.split(".").reduce((acc, k) => acc?.[k], translations[lang]);
 }
 
+// nav height calculator
+function setScrollOffset() {
+  const nav = document.querySelector(".nav");
+  if (!nav) return;
+
+  const navHeight = nav.offsetHeight;
+  const extraGap = 12;
+
+  document.documentElement.style.setProperty(
+    "--nav-offset",
+    `${navHeight + extraGap}px`
+  );
+}
+
+window.addEventListener("load", setScrollOffset);
+window.addEventListener("resize", setScrollOffset);
+
+window.addEventListener("load", setScrollOffset);
+window.addEventListener("resize", setScrollOffset);
+setScrollOffset();
+
 function wireLivestreamUI() {
   const lsA = document.getElementById("livestreamLink");
   const lsP = document.getElementById("livestreamPlaceholder");
