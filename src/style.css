@@ -386,3 +386,39 @@ section[id] {
   scroll-margin-top: var(--nav-offset, 110px);
 }
 
+.countdown-card {
+  text-align: center;
+}
+
+.countdown-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+@media (min-width: 700px) {
+  .countdown-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.countdown-grid div {
+  padding: 16px 10px;
+  border-radius: 16px;
+  border: 1px solid rgba(15,42,33,0.14);
+  background: rgba(255,255,255,0.62);
+}
+
+.countdown-grid span {
+  display: block;
+  font-size: clamp(30px, 6vw, 52px);
+  font-weight: 900;
+  color: var(--pine-900);
+  line-height: 1;
+}
+
+.countdown-grid p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
