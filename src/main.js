@@ -77,7 +77,7 @@ const translations = {
     },
     rsvp: {
       title: "RSVP",
-      deadline: "Please RSVP by May 23rd.",
+      deadline: "Please RSVP by May 30th.",
       nameLabel: "Family name",
       namePlaceholder: "e.g. Triana Family",
       attendingLabel: "Attending?",
@@ -163,7 +163,7 @@ const translations = {
     },
     rsvp: {
       title: "Confirmar asistencia",
-      deadline: "Por favor confirme antes de el 23 de Mayo.",
+      deadline: "Por favor confirme antes de el 30 de Mayo.",
       nameLabel: "Apellido (familia)",
       namePlaceholder: "p. ej. Familia Triana",
       attendingLabel: "¿Asistirá?",
