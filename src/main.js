@@ -74,6 +74,8 @@ const translations = {
       a2: "Yes, parking is available on-site.",
       q3: "Can I bring a plus-one?",
       a3: "We would like this to be an intimate wedding. Because of this, we ask that you do not bring other guests unless specified.",
+      q4: "Will there be childcare or a nursery?",
+      a4: "Yes, there will be nursery available during the ceremony.",
     },
     rsvp: {
       title: "RSVP",
@@ -160,6 +162,8 @@ const translations = {
       a2: "Sí, hay estacionamiento disponible en el lugar.",
       q3: "¿Puedo llevar a un invitado/a?",
       a3: "Deseamos que esta sea una boda íntima; por ello, les pedimos amablemente que respeten la invitación y no asistan con acompañantes adicionales al menos que se indique lo contrario.",
+      q4: "Va a haber cuidado de niños o una guarderia?",
+      a4: "Si, habra una guarderia para niños pequeños.",
     },
     rsvp: {
       title: "Confirmar asistencia",
