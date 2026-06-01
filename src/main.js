@@ -95,6 +95,8 @@ const translations = {
       error: "Something went wrong. Please try again.",
       network: "Network error. Please try again.",
       botOk: "Thanks! RSVP received.",
+      afterDeadline: `To RSVP, please email oliverandrea2026@gmail.com 
+      with your name and number of guests.`
     },
     footer: { updatedPrefix: "Last updated: " },
     toggle: { toEs: "Español", toEn: "English" },
@@ -183,6 +185,8 @@ const translations = {
       error: "Algo salió mal. Inténtalo de nuevo.",
       network: "Error de red. Inténtalo de nuevo.",
       botOk: "¡Gracias! Confirmación recibida.",
+      afterDeadline: `Para confirmar su asistencia, por favor envíe un correo electronico a
+      oliverandrea2026@gmail.com con su nombre y el número de invitados.`
     },
     footer: { updatedPrefix: "Actualizado: " },
     toggle: { toEs: "Español", toEn: "English" },
