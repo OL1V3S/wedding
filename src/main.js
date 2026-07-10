@@ -13,7 +13,7 @@ gsap.registerPlugin(ScrollTrigger);
 const BASE = import.meta.env.BASE_URL;
 
 // ---------- Livestream URL  ----------
-const LIVESTREAM_URL = "https://www.youtube.com/@lincolnbaptistchurch6919";
+const LIVESTREAM_URL = "https://www.youtube.com/live/NdCRSnzX4b8";
 
 // ---------- i18n (English/Spanish) ----------
 const appWrap = document.getElementById("app");
