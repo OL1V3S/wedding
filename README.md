@@ -1,6 +1,6 @@
 # Wedding Website
 
-Hosted at https://ol1v3s.github.io/wedding/
+Hosted at https://ol1v3s.github.io/wedding/ **(Not currently deployed)**
 
 This is my official personal wedding website.  
 It includes event details, venue information, registry links, livestream access, and an RSVP form.
